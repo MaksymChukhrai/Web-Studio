@@ -1,14 +1,13 @@
-
-:root{
-    --primary-text-color:#212121;
-    --title-text-color:#212121;
-    --accent-color:#2196f3;
-    --primary-white-color:#ffffff;
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif, Raleway;
-background-color: var(--primary-white-color);
-color:var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
   letter-spacing: 0.3em;
   font-size: 14px;
 }
@@ -22,13 +21,13 @@ color:var(--primary-text-color);
 }
 .contacts:hover,
 .contacts:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-.links{
-    color: var(--primary-text-color);
+.links {
+  color: var(--primary-text-color);
 }
-.contacts{
-color:  #757575
+.contacts {
+  color: #757575;
 }
 
 .links,
@@ -37,7 +36,6 @@ color:  #757575
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
 
   text-decoration: none;
   list-style: none;
@@ -54,7 +52,7 @@ color:  #757575
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--primary-white-color);      
+  color: var(--primary-white-color);
 }
 .slogan-button:hover,
 .slogan-button:focus {
@@ -78,13 +76,13 @@ color:  #757575
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--primary-white-color); 
+  color: var(--primary-white-color);
 }
 
 .qualities,
 .job-img,
-.our-team{
-    list-style: none; 
+.our-team {
+  list-style: none;
 }
 .set {
   font-weight: 700;
@@ -111,17 +109,17 @@ color:  #757575
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .olga,
 .igor,
 .mykola,
-.myhailo{
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    
+.myhailo {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name {
@@ -145,16 +143,15 @@ color:  #757575
   background: #2f303a;
 }
 .web {
-    color: var(--accent-color);
- 
+  color: var(--accent-color);
 }
 .studio {
   color: #000000;
 }
 .studio-bottom {
-    color: var(--primary-white-color); 
+  color: var(--primary-white-color);
 }
-.logo{
+.logo {
   text-decoration: none;
   font-family: 'Raleway';
   font-weight: 700;
@@ -165,15 +162,15 @@ color:  #757575
 
 .tel:hover,
 .tel:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .email:hover,
 .email:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .address:hover,
 .address:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .tel,
 .email {
@@ -185,18 +182,18 @@ color:  #757575
   color: rgba(255, 255, 255, 0.6);
 }
 .address {
-   font-style: normal;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  color: var(--primary-white-color); 
+  color: var(--primary-white-color);
 }
 /* окремі свойства portfolio */
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-  }
+  position: fixed;
+  transform: scale(0);
+}
 .nav-buttons {
   list-style: none;
 }
@@ -205,7 +202,6 @@ color:  #757575
 }
 .nav-footer {
   list-style: none;
-  
 }
 
 .nav-button :hover,
@@ -231,7 +227,6 @@ color:  #757575
   color: #2f303a;
 }
 .project {
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -240,7 +235,7 @@ color:  #757575
 }
 
 .project-title {
-   font-size: 16px;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
